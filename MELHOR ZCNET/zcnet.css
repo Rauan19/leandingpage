@@ -1,0 +1,648 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.videos{
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+   
+
+html{
+    scroll-behavior: smooth;
+    
+    
+    
+}
+
+#menu{
+    
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, black, #094d77);
+    z-index: 3;
+    position: fixed;
+}
+.img-zc{
+    margin-top: -40px;
+    width: 190px;
+    height: 160px;
+}
+.a-menu{
+    font-size: 20px;
+    
+    margin-top: 30px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+}
+#nomes{
+     
+    margin-left: 30px;
+    top: 130px;
+    z-index: 2;
+    position: relative;
+    color: #fff;
+    font-size: 60px;
+}
+p{
+    font-size: 20px;
+}
+.conectado{
+    color: #0093efa6;
+}
+.btn-saibamais{
+    padding: 8px 50px;
+    font-size: 20px;
+    color: #fff;
+    background: transparent;
+    box-shadow: 0 0 20px 2px #0093efa6;
+    margin-left: 80px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#contener{
+    box-shadow: 0 0 90px 150px rgb(0, 0, 0);
+    border-radius: 10px 10px 0 0;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 599px;
+    width: 100%;
+    height: 85vh;
+  background-color: #000000;
+    color: #fff;
+    z-index: 2;
+    position: relative;
+}
+.contener-carde{
+    margin: 0 auto;
+    
+    width: 90%;
+    
+    color: #e9e5e5;
+    height: 40vh;
+    
+    margin-top: -110px;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    
+}
+
+    
+
+.caixa1, .caixa2, .caixa3{
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    border: 5px solid ;
+    margin-top: 120px;
+
+}
+.whats{
+    background-color: green;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    color: #fff;
+    border-radius: 15px;
+    margin-top: 580px;
+    box-shadow: 0 0 20px 3px green;
+    position: fixed;
+    border: none;
+    cursor: pointer;
+
+}
+.caixa1:hover, .caixa2:hover ,.caixa3:hover{
+    border: 3px solid rgb(4, 4, 4);
+}
+.ultra-v{
+    
+    margin-top: -280px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+
+.a-menu:hover{
+    
+    background-color: #0f9cf458;
+    font-size: 20px;
+    
+    
+    
+    padding: 0px 15px;
+    color: #fffffff8;
+    border-radius: 20px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.caixa1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #094d77;
+    width: 390px;
+    height: 470px;
+    border-radius: 20px;
+}
+.caixa2{
+    
+    background-color: #094d77;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 380px;
+    margin-left: 20px;
+    height: 470px;
+    border-radius: 20px;
+}
+.caixa3{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+    background-color: #094d77;
+    width: 380px;
+    border-radius: 20px;
+    height: 470px;
+}
+.mb{
+    font-size: 50px;
+}
+.nomes-planos{
+    z-index: 2;
+    margin-top: 30px;
+    margin-left: 170px;
+    
+}
+.icone-menu{
+    display: none;
+    z-index: 2;
+    position: relative;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 60px;
+}
+.btn-caixa1:hover{
+    border: 2px solid black;
+    color: #094d77;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    
+    
+}
+.btn-caixa1:hover{
+    background-color: rgba(187, 183, 183, 0.873);
+    box-shadow: 0 0 30px 3px #0f9cf4;
+    border: none;
+}
+    
+
+.btn-caixa1{
+    cursor: pointer;
+    background-color: white;
+    color: #000000;
+    padding: 10px 8px;
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-left: 6%;
+    border: none;
+    font-size: 20px;
+    height: 40px;
+}
+#diferente{
+    margin-top: 0px;
+    
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #ffffff;
+    background-color:  black;
+    width: 100%;
+    height: 60vh;
+}
+
+    
+    
+
+.nd{
+    color: #fff;
+    margin-top: 20px;
+    
+}
+.caixas-diferente{
+    background: linear-gradient(to right, black, #094d77);
+    height: 40vh;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.diferente1, .diferente2, .diferente3{
+    background-color: #0a4c75fa;
+    width: 370px;
+    border: 6px solid rgb(255, 255, 255);
+    margin-top: -150px;
+    height: 270px;
+    border-radius: 20px;
+}
+.diferente2, .diferente3{
+    margin-left: 18px;
+}
+.nd{
+    color: #094d77;
+}
+.icones{
+    margin-top: 25px;
+    font-size: 90px;
+}
+.img-ultima{
+    width: 190px;
+}
+.menu-lateral{
+    display: none;
+    height: 0;
+}
+.botaoSair{
+    transition: 0.8s;
+    font-size: 60px;
+    z-index: 2;
+    position: relative;
+    display:none;
+    color: #fff;
+}
+.pagamento:hover{
+    color: #fff;
+}
+.pagamento{
+    margin-left: -3px;
+
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+    margin-top: 0;
+}
+.btn-boleto{
+    color: #094d77;
+    height: 5px;
+    text-align: center;
+    font-weight: 600;
+    margin-left: 2px;
+}
+.btn-pagar:hover{
+    box-shadow: 0 0 20px 4px;
+    padding: 10px;
+    
+    
+}
+.imagem-final{
+    margin-left: -20px;
+    width: 180px;
+}
+.links-celular{
+    color: #fff;
+}
+#para-pagamento{
+    
+    margin-top: 80px;
+    box-shadow: 0 0 40px 90px black;
+    background-color: #000000;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+.boleto{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid white;
+   width: 350px;
+    border-radius: 10px;
+    background-color: #094d77;
+    height: 180px;
+}
+.barra{
+    font-size: 50px;
+    color: #fff;
+}
+.pix{
+    text-align: center;
+    display: flex;
+    border: 3px solid white;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    
+    height: 40px;
+    color: #fff;
+    border-radius: 15px;
+}
+.botao-contatos{
+    color: #000000;
+    
+    margin-left: 0;
+}
+
+.caixa-pagamento{
+    display: flex;
+    align-items: center;
+}
+.cm{
+    margin-bottom: 30px;
+    color: #fff;
+}
+span{
+    color: #094d77;
+    font-size: 28px;
+}
+.logo-whatsapp{
+    font-size: 25px;
+}
+.btn-pagar{
+    color: #0f9cf4;
+    
+    margin-top: 40px;
+    text-align: center;
+    
+    text-align: center;
+    
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 3px 20px;
+}
+
+
+.final{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    background-color: #094d77;
+    z-index: 2;
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: 34vh;
+}
+.rodape-inicio{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.final p{
+    margin-top: 9px;
+    font-size: 15px;
+}
+.rodape1{
+    
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.rodape1 p{
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(71, 223, 223);
+}
+a{
+    color: #fff;
+}
+
+.whats-final{
+    font-size: 30px;
+    color: aqua;
+}
+    
+
+    
+
+@media (min-width:726px ) {
+    
+    
+    .icone-menu{
+        display: none !important;
+    }
+    
+        
+    
+}
+@media  (max-width:727px){
+
+    .contener-carde{
+        flex-direction: column;
+        align-items: center;
+        
+        height: 140vh;
+    }
+    .rodape-inicio{
+        margin-left: 15px;
+    }
+    .link-final{
+        display: block;}
+    
+    
+      
+        
+    
+    .botao-contatos{
+        font-size: 18px;
+        margin-top: 0px;
+        
+        display: block;
+
+    }
+    .botao-contatos:hover{
+        font-size: 15px;
+        border: none;
+
+    }
+    .links-celular{
+        margin-top: 0px;
+        margin-left: 0;
+        color: #ffffff;
+        margin-bottom: 15px;
+        display: block;
+    }
+    .btn-caixa1{
+        width: 100%;
+    }
+        
+    
+    .btn-pagar{
+        padding: 20px 80px;
+    }
+    .icones-lateral{
+        font-size: 24px;
+    }
+    .menu-lateral{
+        transition: 0.5s;
+        border-radius: 0px;
+        top: 79px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+        z-index: 3;
+        position: fixed;
+        background: linear-gradient(to right, black, #094d77);
+        width: 100%;
+        overflow: hidden;
+        height: 0;
+    }
+    
+        
+    
+    #contener{
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+        height: 218vh;
+        margin-top: 310px;
+    }
+    .caixa1, .caixa2, .caixa3{
+        margin-top: 700px;
+        height: 490px;
+        padding: 80px 60px;
+        width: 330px;
+        
+    }
+    .btn-pagar{
+        text-align: center;
+        height: 3px;
+    }
+    .btn-pagar:hover{
+        padding: 18px 40px;
+    }
+        
+    
+    .btn-boleto{
+        margin-top: -10px;
+        display: block;
+    }
+    .link-menu1{
+        margin-top: 20px;
+        display: block;
+    }
+    
+    .ultra-v{
+        margin-top: 300px;
+    }
+    .icone-menu{
+        transform: 0.3s;
+        cursor: pointer;
+        margin-top: 30px;
+        display: block;
+    }
+    .img-zc{
+        width: 130PX;
+        height: 150PX;
+        margin-top: -40px;
+    }
+    #menu{
+        width: 100%;
+        margin-top: -50px;
+        height: 80px;
+        justify-content: space-between;
+        
+    }
+    .caixa2, .caixa3{
+        margin-top: 40px;
+    }
+    #diferente{
+        height: 100vh;
+        margin-top: 0px;
+    }
+    .caixas-diferente{
+        flex-wrap: wrap;
+        height: 150vh;
+    }
+    footer{
+        margin-top: 500px;
+    }
+    #para-pagamento{
+        margin-top: 550px;
+    }
+
+    #nomes{
+        margin-top: 50px;
+        font-size: 45px;
+    }
+    .caixa1{
+        width: 340px;
+        margin-left: 20px;
+    }
+    .nd{
+        color: #fff;
+    }
+    a{
+        display: none;
+    }
+    p{
+        font-size: 16px;
+    }
+
+    .meus-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        flex-direction: column;
+        width: 70%;
+        
+    }
+    .btn-saibamais{
+        height: 40px;
+        margin-top: 50px;
+        
+        
+    }
+    .link-menu{
+        
+        display: block;
+        
+        font-size: 18px;
+        width: 180px;
+    }
+    .img-zclateral{
+        width: 90px;
+        margin-left: 18px;
+    }
+    
+}
+
+@media (max-width:859px) {
+
+  .botao-contatos{
+    font-size: 15px;
+  }
+  .botao-contatos:hover{
+    font-size: 15px;
+    margin-left: 0px;
+    background-color: transparent;
+  }
+  
+    
+}
